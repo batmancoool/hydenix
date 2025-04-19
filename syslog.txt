@@ -1,0 +1,128 @@
+Apr 19 17:11:31 nixos systemd[1]: Stopping User and Group Name Lookups...
+Apr 19 17:11:31 nixos systemd[1]: Stopping Name Service Cache Daemon (nsncd)...
+Apr 19 17:11:31 nixos systemd[1]: nscd.service: Deactivated successfully.
+Apr 19 17:11:31 nixos systemd[1]: Stopped Name Service Cache Daemon (nsncd).
+Apr 19 17:11:31 nixos systemd[1]: Starting Name Service Cache Daemon (nsncd)...
+Apr 19 17:11:31 nixos nsncd[1179]: Apr 19 11:41:31.372 INFO started, config: Config { ignored_request_types: {}, worker_count: 8, handoff_timeout: 3s }, path: "/var/run/nscd/socket"
+Apr 19 17:11:31 nixos systemd[1]: Started Name Service Cache Daemon (nsncd).
+Apr 19 17:11:31 nixos systemd[1]: Reached target Host and Network Name Lookups.
+Apr 19 17:11:31 nixos systemd[1]: Reached target User and Group Name Lookups.
+Apr 19 17:11:41 nixos login[1056]: pam_unix(login:session): session opened for user sumit(uid=1000) by LOGIN(uid=0)
+Apr 19 17:11:41 nixos systemd[1]: NetworkManager-dispatcher.service: Deactivated successfully.
+Apr 19 17:11:41 nixos systemd[1]: NetworkManager-dispatcher.service: Consumed 47ms CPU time, 13.4M memory peak, 9.1M read from disk.
+Apr 19 17:11:47 nixos systemd[1]: Created slice Slice /user/1000.
+Apr 19 17:11:47 nixos systemd[1]: Starting User Runtime Directory /run/user/1000...
+Apr 19 17:11:47 nixos systemd-timesyncd[874]: Network configuration changed, trying to establish connection.
+Apr 19 17:11:47 nixos systemd-logind[940]: New session 1 of user sumit.
+Apr 19 17:11:48 nixos systemd[1]: Finished User Runtime Directory /run/user/1000.
+Apr 19 17:11:48 nixos systemd[1]: Starting User Manager for UID 1000...
+Apr 19 17:11:46 nixos systemd-timesyncd[874]: Contacted time server [2401:c080:2400:1c19:5400:4ff:fe0b:be05]:123 (2.nixos.pool.ntp.org).
+Apr 19 17:11:53 nixos systemd-journald[561]: Time jumped backwards, rotating.
+Apr 19 17:11:46 nixos (systemd)[1197]: pam_unix(systemd-user:session): session opened for user sumit(uid=1000) by (uid=0)
+Apr 19 17:11:46 nixos systemd-timesyncd[874]: Initial clock synchronization to Sat 2025-04-19 17:11:46.663519 IST.
+Apr 19 17:11:46 nixos systemd-logind[940]: New session 2 of user sumit.
+Apr 19 17:11:51 nixos systemd[1]: getty@tty1.service: Deactivated successfully.
+Apr 19 17:11:51 nixos systemd[1]: getty@tty1.service: Consumed 85ms CPU time, 19.7M memory peak, 1.8M read from disk, 4K written to disk.
+Apr 19 17:11:51 nixos systemd[1]: run-credentials-getty\x40tty1.service.mount: Deactivated successfully.
+Apr 19 17:11:51 nixos systemd[1]: getty@tty1.service: Scheduled restart job, restart counter is at 1.
+Apr 19 17:11:51 nixos systemd-logind[940]: Session 1 logged out. Waiting for processes to exit.
+Apr 19 17:11:51 nixos systemd[1]: Started Getty on tty1.
+Apr 19 17:11:53 nixos systemd[1]: systemd-hostnamed.service: Deactivated successfully.
+Apr 19 17:11:53 nixos systemd[1197]: Queued start job for default target Main User Target.
+Apr 19 17:11:53 nixos systemd[1197]: Created slice User Application Slice.
+Apr 19 17:11:53 nixos systemd[1197]: Reached target Paths.
+Apr 19 17:11:53 nixos systemd[1197]: Reached target Timers.
+Apr 19 17:11:53 nixos systemd[1197]: Starting D-Bus User Message Bus Socket...
+Apr 19 17:11:54 nixos systemd[1197]: Listening on D-Bus User Message Bus Socket.
+Apr 19 17:11:54 nixos systemd[1197]: Reached target Sockets.
+Apr 19 17:11:54 nixos systemd[1197]: Reached target Basic System.
+Apr 19 17:11:54 nixos systemd[1]: Started User Manager for UID 1000.
+Apr 19 17:11:54 nixos systemd[1197]: Starting Run user-specific NixOS activation...
+Apr 19 17:11:54 nixos systemd[1]: session-1.scope: No PIDs left to attach to the scope's control group, refusing.
+Apr 19 17:11:54 nixos systemd[1]: session-1.scope: Failed with result 'resources'.
+Apr 19 17:11:54 nixos systemd[1]: Failed to start Session 1 of User sumit.
+Apr 19 17:11:54 nixos systemd-logind[940]: Removed session 1.
+Apr 19 17:11:54 nixos systemd[1197]: Finished Run user-specific NixOS activation.
+Apr 19 17:11:54 nixos systemd[1197]: Reached target Main User Target.
+Apr 19 17:11:54 nixos systemd[1197]: Startup finished in 7.565s.
+Apr 19 17:11:59 nixos login[1205]: pam_unix(login:session): session opened for user sumit(uid=1000) by LOGIN(uid=0)
+Apr 19 17:11:59 nixos systemd-logind[940]: New session 3 of user sumit.
+Apr 19 17:11:59 nixos systemd[1]: Started Session 3 of User sumit.
+Apr 19 17:12:18 nixos systemd[1]: Started Nix Daemon.
+Apr 19 17:12:18 nixos nix-daemon[1227]: accepted connection from pid 1225, user sumit
+Apr 19 17:12:31 nixos nix-daemon[1227]: accepted connection from pid 1247, user sumit
+Apr 19 17:25:51 nixos systemd[1]: Starting Cleanup of Temporary Directories...
+Apr 19 17:29:46 nixos systemd[1]: systemd-tmpfiles-clean.service: Deactivated successfully.
+Apr 19 17:29:46 nixos systemd[1]: Finished Cleanup of Temporary Directories.
+Apr 19 17:29:46 nixos systemd[1]: run-credentials-systemd\x2dtmpfiles\x2dclean.service.mount: Deactivated successfully.
+Apr 19 17:47:33 nixos nix-daemon[1227]: accepted connection from pid 1825910, user sumit
+Apr 19 18:00:04 nixos systemd[1]: Starting Logrotate Service...
+Apr 19 18:00:04 nixos systemd-timesyncd[874]: Network configuration changed, trying to establish connection.
+Apr 19 18:00:04 nixos systemd-timesyncd[874]: Network configuration changed, trying to establish connection.
+Apr 19 18:00:04 nixos systemd-timesyncd[874]: Network configuration changed, trying to establish connection.
+Apr 19 18:00:04 nixos systemd-timesyncd[874]: Contacted time server [2401:c080:2400:1c19:5400:4ff:fe0b:be05]:123 (2.nixos.pool.ntp.org).
+Apr 19 18:00:04 nixos systemd[1]: logrotate.service: Deactivated successfully.
+Apr 19 18:00:04 nixos systemd[1]: Finished Logrotate Service.
+Apr 19 18:08:49 nixos sudo[1825960]:    sumit : TTY=tty1 ; PWD=/home/sumit/hydenix ; USER=root ; COMMAND=/run/current-system/sw/bin/nixos-generate-config --show-hardware-config
+Apr 19 18:08:49 nixos sudo[1825960]: pam_unix(sudo:session): session opened for user root(uid=0) by sumit(uid=1000)
+Apr 19 18:08:49 nixos sudo[1825960]: pam_unix(sudo:session): session closed for user root
+Apr 19 18:11:28 nixos dbus-daemon[882]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.5' (uid=0 pid=1042 comm="/nix/store/mjhnfsblswgvsqxmnfhfzsyclwkwy7g9-networ" label="kernel")
+Apr 19 18:11:28 nixos systemd[1]: Starting Network Manager Script Dispatcher Service...
+Apr 19 18:11:28 nixos dbus-daemon[882]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Apr 19 18:11:28 nixos systemd[1]: Started Network Manager Script Dispatcher Service.
+Apr 19 18:11:38 nixos systemd[1]: NetworkManager-dispatcher.service: Deactivated successfully.
+Apr 19 18:37:02 nixos systemd[1]: Started Getty on tty2.
+Apr 19 18:37:14 nixos login[1826020]: pam_unix(login:session): session opened for user sumit(uid=1000) by LOGIN(uid=0)
+Apr 19 18:37:14 nixos systemd-logind[940]: New session 4 of user sumit.
+Apr 19 18:37:14 nixos systemd[1]: Started Session 4 of User sumit.
+Apr 19 18:38:18 nixos sudo[1826042]:    sumit : TTY=tty2 ; PWD=/home/sumit ; USER=root ; COMMAND=/run/current-system/sw/bin/nano /etc/nixos/configuration.nix
+Apr 19 18:38:18 nixos sudo[1826042]: pam_unix(sudo:session): session opened for user root(uid=0) by sumit(uid=1000)
+Apr 19 18:46:18 nixos sudo[1826060]:    sumit : TTY=tty1 ; PWD=/home/sumit/hydenix ; USER=root ; COMMAND=/run/current-system/sw/bin/nixos-rebuild switch --flake .
+Apr 19 18:46:18 nixos sudo[1826060]: pam_unix(sudo:session): session opened for user root(uid=0) by sumit(uid=1000)
+Apr 19 18:47:28 nixos sudo[1826060]: pam_unix(sudo:session): session closed for user root
+Apr 19 18:48:07 nixos sudo[1826096]:    sumit : TTY=tty1 ; PWD=/home/sumit/hydenix ; USER=root ; COMMAND=/run/current-system/sw/bin/nixos-rebuild switch --flake .
+Apr 19 18:48:07 nixos sudo[1826096]: pam_unix(sudo:session): session opened for user root(uid=0) by sumit(uid=1000)
+Apr 19 18:48:09 nixos sudo[1826096]: pam_unix(sudo:session): session closed for user root
+Apr 19 18:48:38 nixos sudo[1826120]:    sumit : TTY=tty1 ; PWD=/home/sumit/hydenix ; USER=root ; COMMAND=/run/current-system/sw/bin/nixos-rebuild switch --flake .
+Apr 19 18:48:38 nixos sudo[1826120]: pam_unix(sudo:session): session opened for user root(uid=0) by sumit(uid=1000)
+Apr 19 18:48:44 nixos sudo[1826120]: pam_unix(sudo:session): session closed for user root
+Apr 19 18:49:50 nixos sudo[1826143]:    sumit : TTY=tty1 ; PWD=/home/sumit/hydenix ; USER=root ; COMMAND=/run/current-system/sw/bin/nixos-rebuild switch --flake .
+Apr 19 18:49:50 nixos sudo[1826143]: pam_unix(sudo:session): session opened for user root(uid=0) by sumit(uid=1000)
+Apr 19 18:52:03 nixos sudo[1826042]: pam_unix(sudo:session): session closed for user root
+Apr 19 18:54:14 nixos sudo[1826143]: pam_unix(sudo:session): session closed for user root
+Apr 19 18:54:25 nixos sudo[1829205]:    sumit : TTY=tty1 ; PWD=/home/sumit/hydenix ; USER=root ; COMMAND=/run/current-system/sw/bin/nixos-rebuild switch --flake .
+Apr 19 18:54:25 nixos sudo[1829205]: pam_unix(sudo:session): session opened for user root(uid=0) by sumit(uid=1000)
+Apr 19 18:54:53 nixos sudo[1829205]: pam_unix(sudo:session): session closed for user root
+Apr 19 18:58:23 nixos sudo[1832853]:    sumit : TTY=tty1 ; PWD=/home/sumit/hydenix ; USER=root ; COMMAND=/run/current-system/sw/bin/nixos-rebuild switch --flake .
+Apr 19 18:58:23 nixos sudo[1832853]: pam_unix(sudo:session): session opened for user root(uid=0) by sumit(uid=1000)
+Apr 19 18:58:39 nixos sudo[1832853]: pam_unix(sudo:session): session closed for user root
+Apr 19 18:58:44 nixos sudo[1834879]:    sumit : TTY=tty1 ; PWD=/home/sumit/hydenix ; USER=root ; COMMAND=/run/current-system/sw/bin/nixos-rebuild switch --flake .
+Apr 19 18:58:44 nixos sudo[1834879]: pam_unix(sudo:session): session opened for user root(uid=0) by sumit(uid=1000)
+Apr 19 18:59:00 nixos sudo[1834879]: pam_unix(sudo:session): session closed for user root
+Apr 19 19:00:09 nixos systemd[1]: Starting Logrotate Service...
+Apr 19 19:00:09 nixos systemd-timesyncd[874]: Network configuration changed, trying to establish connection.
+Apr 19 19:00:09 nixos systemd-timesyncd[874]: Network configuration changed, trying to establish connection.
+Apr 19 19:00:09 nixos systemd-timesyncd[874]: Network configuration changed, trying to establish connection.
+Apr 19 19:00:09 nixos systemd-timesyncd[874]: Contacted time server [2401:c080:2400:1c19:5400:4ff:fe0b:be05]:123 (2.nixos.pool.ntp.org).
+Apr 19 19:00:09 nixos systemd[1]: logrotate.service: Deactivated successfully.
+Apr 19 19:00:09 nixos systemd[1]: Finished Logrotate Service.
+Apr 19 19:00:56 nixos sudo[1836851]:    sumit : TTY=tty1 ; PWD=/home/sumit/hydenix ; USER=root ; COMMAND=/run/current-system/sw/bin/nixos-rebuild switch --flake .
+Apr 19 19:00:56 nixos sudo[1836851]: pam_unix(sudo:session): session opened for user root(uid=0) by sumit(uid=1000)
+Apr 19 19:01:12 nixos sudo[1836851]: pam_unix(sudo:session): session closed for user root
+Apr 19 19:02:36 nixos sudo[1838822]:    sumit : TTY=tty1 ; PWD=/home/sumit/hydenix ; USER=root ; COMMAND=/run/current-system/sw/bin/nixos-rebuild switch --flake .
+Apr 19 19:02:36 nixos sudo[1838822]: pam_unix(sudo:session): session opened for user root(uid=0) by sumit(uid=1000)
+Apr 19 19:02:39 nixos sudo[1838822]: pam_unix(sudo:session): session closed for user root
+Apr 19 19:06:45 nixos nix-daemon[1227]: accepted connection from pid 1838851, user sumit
+Apr 19 19:06:47 nixos nix-daemon[1227]: accepted connection from pid 1838876, user sumit
+Apr 19 19:06:48 nixos nix-daemon[1227]: accepted connection from pid 1838904, user sumit
+Apr 19 19:06:50 nixos nix-daemon[1227]: accepted connection from pid 1838930, user sumit
+Apr 19 19:06:53 nixos dbus-daemon[882]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.5' (uid=0 pid=1042 comm="/nix/store/mjhnfsblswgvsqxmnfhfzsyclwkwy7g9-networ" label="kernel")
+Apr 19 19:06:53 nixos systemd[1]: Starting Network Manager Script Dispatcher Service...
+Apr 19 19:06:53 nixos dbus-daemon[882]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Apr 19 19:06:53 nixos systemd[1]: Started Network Manager Script Dispatcher Service.
+Apr 19 19:07:03 nixos systemd[1]: NetworkManager-dispatcher.service: Deactivated successfully.
+Apr 19 19:07:03 nixos systemd[1]: NetworkManager-dispatcher.service: Consumed 25ms CPU time, 7.8M memory peak, 4.1M read from disk.
+Apr 19 19:09:51 nixos nix-daemon[1227]: accepted connection from pid 1838960, user sumit
+Apr 19 19:09:52 nixos nix-daemon[1227]: accepted connection from pid 1838985, user sumit
+Apr 19 19:09:53 nixos nix-daemon[1227]: accepted connection from pid 1839011, user sumit
+Apr 19 19:09:54 nixos nix-daemon[1227]: accepted connection from pid 1839037, user sumit
