@@ -1,0 +1,122 @@
+building the system configuration...
+these 89 derivations will be built:
+  /nix/store/i28al707xnsr364yarzs36irfz598d15-glibc-locales-2.40-66.drv
+  /nix/store/08fvi6y5hmkif4b7pcqknxiqgcg1gbjk-unit-systemd-importd.service.drv
+  /nix/store/2f80d5znp5f5mismxnqhjaxcprm2k686-unit-ModemManager.service.drv
+  /nix/store/2md7vj9s2bxdmnbh9nmmbi5n7c53h4p8-unit-serial-getty-.service.drv
+  /nix/store/2yrab8n9qdwgai1fv0q0ph6aw4sgil7a-unit-systemd-timesyncd.service.drv
+  /nix/store/3y2qvk0aj3k1dhwwc4763l18wwxa1bmr-unit-container-.service.drv
+  /nix/store/4hm1y2dl9kyhcs9hd700cf2q8yc2hk6v-unit-user-.service.drv
+  /nix/store/4pzxjl65vfakxzhrddy79x462kp633xn-unit-systemd-udev-settle.service.drv
+  /nix/store/56a4325s29kdrlai4wx1m03hf2nlq49a-system-path.drv
+  /nix/store/5prb5asdxrpw63rdqmiqfs6b5j1nr8b5-unit-wireplumber.service.drv
+  /nix/store/xnmqm6zd8xmdg5nw8l1234n9gsgmhxzw-index-x86_64-linux.drv
+  /nix/store/j59x7p821wyslxw8bljyid36gnh7dffh-nix-index-database.drv
+  /nix/store/bd2frdq1fr765kl3ainvnc51xy498g0b-nix-index-with-full-db-0.1.8.drv
+  /nix/store/cyvpr5wjh9zy07yd3nibp3hq70j1jlm3-hm-session-vars.sh.drv
+  /nix/store/shkjk3am7p8hvv73c6zlkgk772gsbyzf-home-manager-path.drv
+  /nix/store/f9qfxkm5nivpls5drl5wrl5jqhczn2pa-user-environment.drv
+  /nix/store/f9w1ghx2cgz3467m8yapz1fad7x14y60-unit-gpg-agent.service.drv
+  /nix/store/gvai2pnf5z7p44nh68i5c6lqn093khw3-unit-nixos-activation.service.drv
+  /nix/store/h77dcglbhxvbr85ylh31vhqkmhc11vrg-unit-polkit-gnome-authentication-agent-1.service.drv
+  /nix/store/ifllkmrhq0nni1zq1kv4yh604j7rkj75-unit-pipewire-pulse.service.drv
+  /nix/store/kvgai8xb13c6hwj83j8r9fb20wqasan5-unit-systemd-tmpfiles-setup.service.drv
+  /nix/store/n78mc5jpqqm477xvvh0zcm7wqxx326gp-unit-obex.service.drv
+  /nix/store/mdci4yhi40bxff18h4w239hxjy56m58k-dbus-1.drv
+  /nix/store/k79ggascz0dd0hsbk8cas39a5djc5fpb-X-Restart-Triggers-dbus.drv
+  /nix/store/nawhrngvknc1ficfwnr5jc87vnrxxv3d-unit-dbus.service.drv
+  /nix/store/zxj31vvshl4n7zbacdd0996z8q43rhd4-unit-pipewire.service.drv
+  /nix/store/lclp0rr35jpf7xpd94h9irq46m38fazd-user-units.drv
+  /nix/store/7nzihicmkp6py43i966j577l6p3dl1wj-unit-dbus.service.drv
+  /nix/store/7r3nafm0f0y6ga19q4raj4sb762rywa6-unit-prepare-kexec.service.drv
+  /nix/store/83ysgpxxxqc8ibpwfv5gchpgq1mwc647-unit-systemd-random-seed.service.drv
+  /nix/store/8cbsqydfrk2f5vf28f6wgyvbp0gmq04m-unit-user-runtime-dir-.service.drv
+  /nix/store/w2f94kn94g2kdkggigy6d6nfmw0y6rdi-X-Restart-Triggers-polkit.drv
+  /nix/store/9x1mm6m793j38qmjapq7k2y9p7gpi9ia-unit-polkit.service.drv
+  /nix/store/a1yvl1ilkhdifc800c2dpp7sh87fdl1a-unit-audit.service.drv
+  /nix/store/bf4vxhqj0my3jm22r92ss60y8scdn90z-unit-systemd-journald.service.drv
+  /nix/store/bkyb6vc5llyfscw3p1yi31whwkg3cywy-unit-systemd-oomd.service.drv
+  /nix/store/c5c0xlijmij24b1hb177bx6is51ykwcb-unit-systemd-udevd.service.drv
+  /nix/store/cy5cz1vf75z0p59avwd8cz4f4p18mmwr-unit-systemd-user-sessions.service.drv
+  /nix/store/daf18h2xxyddplr66mq510fl1fazxqcn-unit-post-resume.service.drv
+  /nix/store/dhakd5i4q3rffjz101p1aiwvhqfaqvjm-unit-resolvconf.service.drv
+  /nix/store/dim1zq1d5k5g2bq7win7s50h4cp6gvaj-unit-systemd-remount-fs.service.drv
+  /nix/store/dqd301ycc0iqrn9wl38wkxwr2cn1k8m7-unit-nscd.service.drv
+  /nix/store/dv6qnfl5nklc0xy2s7rp3az0wgxp12xj-unit-systemd-pstore.service.drv
+  /nix/store/f05fgv6mac5gikk3fvlmnn7nq1i087i5-unit-pre-sleep.service.drv
+  /nix/store/f7rr9qj7qbm1dq411zqj5n8lvyray6b2-unit-container-getty-.service.drv
+  /nix/store/fajvp235vxcz2y997xqxh8zw3pyzbjx8-unit-NetworkManager-wait-online.service.drv
+  /nix/store/flmp2q3059pn8hmab595vv7d7y561nyv-unit-bluetooth.service.drv
+  /nix/store/g8n8wm5d270l47jhz162bfs2j6yc3r1h-unit-NetworkManager-dispatcher.service.drv
+  /nix/store/gfrw84hbijgwji0bnqmrb92mylja11x5-unit-kmod-static-nodes.service.drv
+  /nix/store/grgwr5kyv18mfsa1gyac6w5ykqzf1lsz-unit-reload-systemd-vconsole-setup.service.drv
+  /nix/store/hwlj3f0nypwb351436flf3pb27ldhjrg-unit-systemd-sysctl.service.drv
+  /nix/store/j2xd1afs6za6kf4af8q273pc3kza0yr3-unit-systemd-backlight-.service.drv
+  /nix/store/j65iy31fr5mhvy565vmfcj70l7rw8yxb-unit-nix-gc.service.drv
+  /nix/store/j82hw2sfzka9nmwxq85s8a8wadrqfyhr-unit-systemd-fsck-.service.drv
+  /nix/store/l2spfr4lkr4qpqc6qz3rf9h01jc1mkrl-unit-autovt-.service.drv
+  /nix/store/lzkp4nfw43l6v46z1r5hqni4vjhyk7f6-unit-logrotate-checkconf.service.drv
+  /nix/store/m6lky6bk8hmlm1wlnlas6ax4vx9s3hhv-unit-generate-shutdown-ramfs.service.drv
+  /nix/store/nv2ybgplww38ag3y2j6lqal8wmqfa50b-unit-nix-daemon.service.drv
+  /nix/store/nvix6rhv09chawr5r55mii5dqyr8s1jr-unit-systemd-nspawn-.service.drv
+  /nix/store/nyxsxpcslwbxwq2dfladb7qlq2jyrgdw-unit-systemd-mkswap-.service.drv
+  /nix/store/p0a2kb0km6yz3bqnvn3s804x15jpgb34-unit-firewall.service.drv
+  /nix/store/p5q2pxf82vh23ggwz38hmn4wrhjm7vr4-unit-systemd-makefs-.service.drv
+  /nix/store/q95arj7fkpy4cr0mw41y6rbkal39vlda-unit-systemd-update-utmp.service.drv
+  /nix/store/qjm11ik60v3y0isbnxz4w5gh1iw5wiz5-unit-mount-pstore.service.drv
+  /nix/store/qk44zm5vxjx4v2p2gb0y7l6gwlp9pck7-unit-sshd.service.drv
+  /nix/store/r75ykmqsafqgaw6v1gd1gv9x06dd3jiw-unit-systemd-journald-.service.drv
+  /nix/store/rnxcaglhjm7mnqlpbz2k2mq957wpdb1m-unit-nix-optimise.service.drv
+  /nix/store/rs560nbwqg145i2rn0fk7jk7j8a71ijv-unit-systemd-modules-load.service.drv
+  /nix/store/s2iwyz7f4zdsfb7z52z881bxlh0ydbdx-unit-systemd-timedated.service.drv
+  /nix/store/s598finxglxzd6y5r11d9gp47c2rzbdz-unit-network-setup.service.drv
+  /nix/store/s5c4bwg88vs8jbr9d9zl1cvqlbyp01jy-unit-save-hwclock.service.drv
+  /nix/store/sbmldj196dsz8bmxvcz23shgfyikdqi3-unit-rtkit-daemon.service.drv
+  /nix/store/spb28pip4all5hi7fi2nkr4wvipmpdj0-unit-NetworkManager.service.drv
+  /nix/store/srzmcvh72hfzx94ds17z3smay0n5147v-unit-logrotate.service.drv
+  /nix/store/bd5qa5hw4ishy5giylw2fmw7pbhbfpkd-hm_.zshrc.drv
+  /nix/store/x12qw3s6im2qsjad17cz5lfg58imsj3g-hm_environment.d10homemanager.conf.drv
+  /nix/store/z9ha6vfw9ns5g9qkql91hz48q9v38q59-hm_fontconfigconf.d10hmfonts.conf.drv
+  /nix/store/874fqpbmw168dld6kqr86br93f0sac25-home-manager-files.drv
+  /nix/store/cp6aar93n8ajmwrnx18drwfplrd681vd-home-manager-generation.drv
+  /nix/store/sx14ll8a10kmssgd7z591104rg38qsj0-unit-home-manager-sumit.service.drv
+  /nix/store/vn6q9m74ca7xlc8ciwvc3hyd51mbvzj5-unit-systemd-logind.service.drv
+  /nix/store/vpi5c45xdds69v0rza8zqmnllnzj68cx-unit-display-manager.service.drv
+  /nix/store/wbasjixaqq1ck7qmjrl9zcyji3x0b0kw-unit-suid-sgid-wrappers.service.drv
+  /nix/store/wd44855fp1bw6b9230i39cqhdc1rnrgl-unit-systemd-tmpfiles-resetup.service.drv
+  /nix/store/wnqcv6nrh7swrvfbyxssnk3q288b1ci8-unit-systemd-journal-flush.service.drv
+  /nix/store/xx639svbj5hiv67h04r7lfwfp2dxmkjm-unit-getty-.service.drv
+  /nix/store/mvl1par9rx8a4h36nv099480yh3470dr-system-units.drv
+  /nix/store/7jivak136sdkhjn15gp7p6hlslj79rbk-etc.drv
+  /nix/store/q7r53qiy66g3hsyhnb2ksahfw5w50287-nixos-system-hydenix-25.05.20250403.2bfc080.drv
+building '/nix/store/i28al707xnsr364yarzs36irfz598d15-glibc-locales-2.40-66.drv'...
+building '/nix/store/xnmqm6zd8xmdg5nw8l1234n9gsgmhxzw-index-x86_64-linux.drv'...
+error: builder for '/nix/store/i28al707xnsr364yarzs36irfz598d15-glibc-locales-2.40-66.drv' failed with exit code 1;
+       last 25 log lines:
+       > xh_ZA.UTF-8/UTF-8 \
+       > xh_ZA/ISO-8859-1 \
+       > yi_US.UTF-8/UTF-8 \
+       > yi_US/CP1255 \
+       > yo_NG/UTF-8 \
+       > yue_HK/UTF-8 \
+       > yuw_PG/UTF-8 \
+       > zgh_MA/UTF-8 \
+       > zh_CN.GB18030/GB18030 \
+       > zh_CN.GBK/GBK \
+       > zh_CN.UTF-8/UTF-8 \
+       > zh_CN/GB2312 \
+       > zh_HK.UTF-8/UTF-8 \
+       > zh_HK/BIG5-HKSCS \
+       > zh_SG.GBK/GBK \
+       > zh_SG.UTF-8/UTF-8 \
+       > zh_SG/GB2312 \
+       > zh_TW.EUC-TW/EUC-TW \
+       > zh_TW.UTF-8/UTF-8 \
+       > zh_TW/BIG5 \
+       > zu_ZA.UTF-8/UTF-8 \
+       > zu_ZA/ISO-8859-1 \
+       > Error: unsupported locales detected:
+       > en_IN.UTF-8/UTF-8 \
+       > You should choose from the list above the error.
+       For full logs, run 'nix log /nix/store/i28al707xnsr364yarzs36irfz598d15-glibc-locales-2.40-66.drv'.
+error: 1 dependencies of derivation '/nix/store/q7r53qiy66g3hsyhnb2ksahfw5w50287-nixos-system-hydenix-25.05.20250403.2bfc080.drv' failed to build
